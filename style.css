@@ -1,0 +1,71 @@
+body {
+    background-image: linear-gradient(to bottom, #d4d4d4, #ee7ea7);
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 100vh; /* Make the background cover the entire page */
+    margin: 0;
+  }
+
+  body.homepage iframe {
+    opacity: 0.5;
+}
+  
+  .matterport-container {
+    position: absolute;
+    top: 40px;
+    left: 100px;
+  }
+
+  .video-container {
+    position: absolute;
+    top: 1080px;
+    left: 100px;
+  }
+
+  .pcmsCard {
+    background-color: #ffffff2e;
+    position: absolute;
+    top: 1620px;
+    left: 100px;
+    width: 280px;
+    height: 420px;
+    text-align: center;
+    
+  }
+
+  .summary {
+    background-color: #ffffff2e;
+    position: absolute;
+    top: 1620px;
+    left: 400px;
+    width: 680px;
+    height: 420px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 23px;
+    font-family: 'Segoe UI';
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 40px;
+    align-items: center;
+    left: 50%;
+  }
+
+  .button {
+    border: none;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+  } 
+
+  .button:hover {
+    background-color: #5d5d5d;
+    transition: 0.2s;
+  }
