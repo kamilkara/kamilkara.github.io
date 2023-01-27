@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu&amp;display=swap">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <script>
+      var i = 0;
+      var images = [];
+      var slideTime = 3000; // 3 seconds
+
+      images[0] = 'images/1.PNG';
+      images[1] = 'images/2.PNG';
+      images[2] = 'images/3.PNG';
+      images[3] = 'images/4.PNG';
+
+      function changePicture() {
+          document.body.style.backgroundImage = "url(" + images[i] + ")";
+
+          if (i < images.length - 1) {
+              i++;
+          } else {
+              i = 0;
+          }
+          setTimeout(changePicture, slideTime);
+      }
+
+      window.onload = changePicture;
+    </script>
+  </body>
+
+  <!-- <footer class="footer">
+    <button id="button1" style="background-color: red;" class="button" onclick="hideDiv(this.id)"></button>
+    <span style="margin: 5px;"></span>
+    <button id="button2" class="button" onclick="hideDiv(this.id)"></button>
+  </footer> -->
+
+</html>

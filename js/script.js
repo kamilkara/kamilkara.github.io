@@ -20,3 +20,5 @@ function hideDiv(clicked_id) {
       }
     }
 }
+
+

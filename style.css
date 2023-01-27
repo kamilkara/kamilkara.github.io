@@ -1,9 +1,10 @@
 body {
-    background-image: linear-gradient(to bottom, #d4d4d4, #ee7ea7);
     background-image: url(images/background.png);
     background-repeat: no-repeat;
+    transition: 0.5s;
     background-blend-mode: multiply;
     background-size: cover;
+    background-position: center;
     height: 100vh; /* Make the background cover the entire page */
     margin: 0;
   }
