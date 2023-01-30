@@ -7,7 +7,22 @@ body {
     background-position: center;
     height: 100vh; /* Make the background cover the entire page */
     margin: 0;
-  }
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(eras.ttf);
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(eras.ttf);
+  font-weight: bold;
+}
+
+div {
+  font-family: myFirstFont;
+}
 
   body.homepage iframe {
     opacity: 0.5;
@@ -46,7 +61,6 @@ body {
     text-align: center;
     color: #ffffff;
     font-size: 23px;
-    font-family: 'Segoe UI';
     padding-left: 10px;
     padding-right: 10px;
   }
