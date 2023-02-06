@@ -52,7 +52,7 @@ div {
   }
 
   .summary {
-    background-color: #ffffff2e;
+    /* background-color: #ffffff2e; */
     position: absolute;
     top: 1620px;
     left: 400px;
