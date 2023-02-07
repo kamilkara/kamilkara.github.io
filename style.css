@@ -42,6 +42,7 @@ div {
 
   .pcmsCard {
     background-color: #ffffff2e;
+    border-radius: 10px;
     position: absolute;
     top: 1620px;
     left: 100px;
@@ -60,7 +61,7 @@ div {
     height: 420px;
     text-align: center;
     color: #ffffff;
-    font-size: 23px;
+    font-size: 30px;
     padding-left: 10px;
     padding-right: 10px;
   }
